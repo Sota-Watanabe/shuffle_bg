@@ -1,7 +1,6 @@
 #!/bin/bash
 thumbnails='/home/sota/Pictures/wallpaper/'
 if [ "1" = $(pgrep -c $(basename $0 .sh)) ]; then
-    echo "start" >> a.txt
     while :
         do
         images=(`ls $thumbnails`)
